@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: game.five-nights-at-epsteins.org
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+Allow: /*.css$
+Allow: /*.js$
+
+Disallow: /*.pdf$
+Disallow: /*.doc$
+
+Sitemap: https://five-nights-at-epsteins.org/sitemap.xml
+
+Crawl-delay: 10

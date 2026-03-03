@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Five Nights at Epstein's - Play Free Horror Survival Game Online</title>
+    <meta name="description" content="Play Five Nights at Epstein's online free! A terrifying survival horror game where you monitor cameras, manage systems, and survive against unpredictable enemies. Experience the ultimate surveillance horror now!">
+    <meta name="keywords" content="five nights at epstein's, fnaf style game, horror survival game, surveillance horror, epstein game, online horror game, free horror game, camera monitoring game">
+    <link rel="canonical" href="https://five-nights-at-epsteins.org/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Five Nights at Epstein's Game",
+            "alternateName": "five-nights-at-epsteins.org",
+            "url": "https://five-nights-at-epsteins.org/",
+            "description": "Experience Five Nights at Epstein's - a terrifying survival horror game with surveillance mechanics, unpredictable enemies, and intense time pressure. Play free online now!",
+            "genre": "Horror Survival Game",
+            "keywords": "five nights at epstein's, horror survival game, surveillance horror, fnaf style game, camera monitoring game, free online horror"
+        }
+    </script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://five-nights-at-epsteins.org/">
+    <meta property="og:title" content="Five Nights at Epstein's - Free Horror Survival Game Online">
+    <meta property="og:description" content="Play Five Nights at Epstein's online! Survive against terrifying enemies using surveillance cameras and quick reflexes. Experience the ultimate horror survival challenge free!">
+    <meta property="og:image" content="https://five-nights-at-epsteins.org/images/five-nights-at-epsteins-og.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://five-nights-at-epsteins.org/">
+    <meta property="twitter:title" content="Five Nights at Epstein's: Free Horror Survival Game">
+    <meta property="twitter:description" content="Play Five Nights at Epstein's online free! Monitor cameras, manage systems, and survive against unpredictable threats in this intense horror experience!">
+    <meta property="twitter:image" content="https://five-nights-at-epsteins.org/images/five-nights-at-epsteins-og.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo">
+            <a href="/" title="Five Nights at Epstein's">
+                <svg width="350" height="40" viewBox="0 0 350 40">
+                    <defs>
+                        <style>
+                            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+                            .rainbow-text { 
+                                font-family: 'Press Start 2P', cursive;
+                                font-size: 14px;
+                                letter-spacing: -3px;
+                            }
+                        </style>
+                    </defs>
+                    <text x="0" y="30" class="rainbow-text">
+                        <tspan fill="#FF0000">F</tspan>
+                        <tspan fill="#FF7F00">I</tspan>
+                        <tspan fill="#FFFF00">V</tspan>
+                        <tspan fill="#00FF00">E</tspan>
+                        <tspan fill="#0000FF">N</tspan>
+                        <tspan fill="#8B00FF">I</tspan>
+                        <tspan fill="#FF1493">G</tspan>
+                        <tspan fill="#00FFFF">H</tspan>
+                        <tspan fill="#FF69B4">T</tspan>
+                        <tspan fill="#1E90FF">S</tspan>
+                        <tspan fill="#32CD32">A</tspan>
+                        <tspan fill="#FF0000">T</tspan>
+                        <tspan fill="#FF7F00">E</tspan>
+                        <tspan fill="#FFFF00">P</tspan>
+                        <tspan fill="#00FF00">S</tspan>
+                        <tspan fill="#0000FF">T</tspan>
+                        <tspan fill="#8B00FF">E</tspan>
+                        <tspan fill="#FF1493">I</tspan>
+                        <tspan fill="#00FFFF">N</tspan>
+                        <tspan fill="#FF69B4">S</tspan>
+                    </text>
+                </svg>
+        </a>
+        </div>
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+        <div class="nav-links">
+            <a href="/" class="btn" title="Five Nights at Epstein's Home">Home</a>
+            <a href="#features" class="btn" title="Five Nights at Epstein's Features">Features</a>
+            <a href="#how-to-play" class="btn" title="How to Play Five Nights at Epstein's">How to Play</a>
+            <a href="#enemies" class="btn" title="Five Nights at Epstein's Enemies">Enemies</a>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <section id="game" class="section full-width">
+            <div class="game-container">
+                <div class="game-main">
+                    <div class="game-iframe">
+                        <div id="game-overlay" class="game-overlay">
+                            <div class="game-card">
+                                <img src="images/five-nights-at-epsteins.jpg" alt="Five Nights at Epstein's Preview" class="game-preview">
+                                <h2>Five Nights at Epstein's</h2>
+                                <button id="play-btn" class="play-btn">Play Now</button>
+                            </div>
+                            <div class="domain-name">five-nights-at-epsteins.org</div>
+                        </div>
+                        <iframe
+                            id="game-frame"
+                            src="https://wordle2.io/five-nights-at-epsteins.embed"
+                            allowfullscreen
+                            sandbox="allow-scripts allow-same-origin allow-forms allow-popups-to-escape-sandbox"
+                        ></iframe>
+                    </div>
+                    <div class="game-controls">
+                        <h1 style="padding-left: 10px;">Five Nights at Epstein's</h1>
+                        <div class="game-actions">
+                            <button id="fullscreen-btn" class="fullscreen-btn" title="Fullscreen">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor" d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                                </svg>    
+                            </button>
+                        </div>
+                    </div>
+                    <div class="share-buttons">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://five-nights-at-epsteins.org/" target="_blank" rel="noopener noreferrer" class="share-button facebook">
+                            <i class="fa fa-facebook"></i> <span class="share-text">Facebook</span>
+                        </a>
+                        <a href="mailto:?subject=Check out Five Nights at Epstein's!&body=https://five-nights-at-epsteins.org/" class="share-button email">
+                            <i class="fa fa-envelope"></i> <span class="share-text">Email</span>
+                        </a>
+                        <a href="https://twitter.com/intent/tweet?url=https://five-nights-at-epsteins.org/" target="_blank" rel="noopener noreferrer" class="share-button twitter">
+                            <i class="fa fa-twitter"></i> <span class="share-text">Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://five-nights-at-epsteins.org/" target="_blank" rel="noopener noreferrer" class="share-button linkedin">
+                            <i class="fa fa-linkedin"></i> <span class="share-text">Linkedin</span>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?text=Check out Five Nights at Epstein's! https://five-nights-at-epsteins.org/" target="_blank" rel="noopener noreferrer" class="share-button whatsapp">
+                            <i class="fa fa-whatsapp"></i> <span class="share-text">WhatsApp</span>
+                        </a>
+                        <a href="https://www.reddit.com/submit?url=https://five-nights-at-epsteins.org/" target="_blank" rel="noopener noreferrer" class="share-button reddit">
+                            <i class="fa fa-reddit"></i> <span class="share-text">Reddit</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <h2>Welcome to Five Nights at Epstein's</h2>
+            <p><strong>Five Nights at Epstein's</strong> is a heart-pounding survival horror game that immerses players in a terrifying endurance scenario filled with unpredictable threats, constant system malfunctions, and split-second decision making. Trapped inside a locked bathroom after a failed investigation on a mysterious isolated island, you must utilize every tool at your disposal to survive the relentless onslaught of enemies while managing limited defenses and waiting desperately for rescue to arrive.</p>
+            <p>What makes <strong>Five Nights at Epstein's</strong> truly unique is the compressed time mechanic where each in-game hour lasts only thirty seconds, transforming what appears to be quiet observation time into a relentless test of awareness, strategy, and lightning-fast reactions under extreme psychological pressure. This innovative approach to the survival horror genre creates an experience unlike any other online horror game available today.</p>
+            <img src="images/five-nights-at-epsteins.jpg" alt="Five Nights at Epstein's Gameplay" class="feature-image">
+        </section>
+        <section id="features" class="section">
+            <h2>Exciting Features of Five Nights at Epstein's</h2>
+            <p><strong>Five Nights at Epstein's</strong> delivers an unparalleled horror gaming experience through its innovative surveillance mechanics and intense survival elements. Every feature has been carefully designed to maximize tension, challenge, and engagement:</p>
+            <ul>
+                <li>Strategic Camera Surveillance: Monitor multiple fixed security cameras positioned throughout the environment to track enemy movements before they reach your location</li>
+                <li>Compressed Time Mechanics: Each in-game hour equals just thirty seconds of real time, creating relentless pressure and eliminating any downtime</li>
+                <li>Advanced Audio Lure System: Redirect enemies toward specific camera views using audio distractions, but beware of system overload risks</li>
+                <li>Dynamic System Management: Handle camera malfunctions, system errors, and equipment failures that can leave you completely blind at the worst moments</li>
+                <li>Vent Defense Mechanics: Close and reopen ventilation systems to prevent enemy intrusion while managing crucial oxygen levels</li>
+                <li>Multiple Unique Enemies: Face off against four distinct adversaries, each with unique behavioral patterns and attack methods</li>
+                <li>Instant Browser Play: Jump into the horror action directly from your web browser without any downloads or installations</li>
+            </ul>
+            <div class="youtube-embed">
+                <p><strong>Watch Five Nights at Epstein's Gameplay:</strong> Learn survival strategies and enemy patterns to extend your playtime.</p>
+                <div class="video-grid">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ejbh_M-_EPs" title="Five Nights at Epstein's Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="game-mechanics" class="section">
+            <h2>Master the Surveillance Systems in Five Nights at Epstein's</h2>
+            <p><strong>Five Nights at Epstein's</strong> presents a sophisticated gameplay system where observation, timing, and resource management are essential for survival. Success requires mastering multiple interconnected mechanics while remaining calm under extreme pressure:</p>
+            <ul>
+                <li>Multi-Camera Monitoring: Switch between various fixed camera feeds to maintain constant awareness of enemy positions and movement patterns</li>
+                <li>Strategic Audio Distraction: Deploy audio lures wisely to redirect threats, but remember that overuse can trigger catastrophic system failures</li>
+                <li>System Reset Protocols: When camera errors occur, quickly navigate to the control panel to restore functionality before enemies exploit your blindness</li>
+                <li>Ventilation Management: Listen carefully for audio cues indicating vent attacks, then seal vents immediately to prevent intrusion</li>
+                <li>Oxygen Conservation: Balance vent closure timing to maintain safe oxygen levels while preventing enemy access to your location</li>
+            </ul>
+        </section>
+
+        <section id="game-objectives" class="section">
+            <h2>Survival Objectives in Five Nights at Epstein's</h2>
+            <p>In <strong>Five Nights at Epstein's</strong>, your mission is deceptively simple yet incredibly challenging: survive all five nights while trapped in the locked bathroom facility. Each night brings increased difficulty, faster enemies, and more frequent system malfunctions that test your skills to the absolute limit:</p>
+            <div class="mode-grid">
+                <div class="mode-item">
+                    <h3>Monitor Relentlessly</h3>
+                    <p>Stay vigilant by constantly checking camera feeds throughout the facility. Enemies move quickly and can reach your location faster than you might expect. Missing even brief moments of surveillance can result in sudden, terrifying attacks.</p>
+                </div>
+                <div class="mode-item">
+                    <h3>Manage Resources</h3>
+                    <p>Effectively balance your use of audio lures, vent controls, and system resets. Every action consumes precious time and energy, so prioritize threats wisely and avoid wasting resources on false alarms.</p>
+                </div>
+                <div class="mode-item">
+                    <h3>Survive Until Dawn</h3>
+                    <p>Endure each compressed night from midnight until 6 AM, with each hour lasting only thirty seconds. Successfully survive all five nights to complete the game and achieve the ultimate victory.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-play" class="section">
+            <h2>How to Play Five Nights at Epstein's</h2>
+            <p>Getting started with <strong>Five Nights at Epstein's</strong> requires understanding the core mechanics, but mastering the game demands practice, pattern recognition, and nerves of steel. Here is everything you need to know to begin your survival journey:</p>
+            <ul>
+                <li>Begin each night trapped in the locked bathroom security room with access to multiple surveillance cameras</li>
+                <li>Use your mouse to click between different camera feeds and monitor enemy positions throughout the facility</li>
+                <li>Deploy audio lures strategically to redirect enemies away from your location toward specific camera areas</li>
+                <li>Listen carefully for audio cues indicating vent approach, then immediately seal the ventilation system</li>
+                <li>Reset camera systems quickly when malfunctions occur to restore visual surveillance capabilities</li>
+                <li>Monitor your oxygen levels when vents are closed, as prolonged closure can cause suffocation</li>
+                <li>Survive from midnight to 6 AM each night, with each in-game hour passing in just thirty seconds</li>
+                <li><strong>Five Nights at Epstein's</strong> is optimized for desktop browser play with keyboard and mouse controls</li>
+            </ul>
+        </section>
+
+        <section id="controls" class="section">
+            <h2>Controls Guide for Five Nights at Epstein's</h2>
+            <p>Master these essential controls to maximize your survival chances in <strong>Five Nights at Epstein's</strong>:</p>
+            <div class="community-features">
+                <ul>
+                    <li><strong>Mouse Click</strong>: Select cameras, activate audio lures, close vents, and reset systems</li>
+                    <li><strong>Camera Panel</strong>: Click camera buttons to switch between different surveillance feeds</li>
+                    <li><strong>Audio Lure Button</strong>: Activate sound distractions to redirect enemy attention</li>
+                    <li><strong>Vent Controls</strong>: Toggle ventilation systems open or closed based on threat assessment</li>
+                    <li><strong>System Reset</strong>: Click the reset button to restore functionality during camera malfunctions</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="enemies" class="section">
+            <h2>Know Your Enemies in Five Nights at Epstein's</h2>
+            <p>Understanding the unique behaviors and attack patterns of each enemy in <strong>Five Nights at Epstein's</strong> is absolutely crucial for survival. Each adversary presents distinct challenges requiring different defensive strategies:</p>
+            
+            <div class="version-item">
+                <h3>Epstein</h3>
+                <p>The primary antagonist moves rapidly between rooms and can suddenly appear at your window without warning. Epstein requires constant camera monitoring and immediate response when detected. Slow reactions or delayed defensive measures often result in instant defeat. His unpredictable movement patterns make him the most dangerous threat throughout all five nights.</p>
+            </div>
+            
+            <div class="version-item">
+                <h3>FC</h3>
+                <p>This enemy begins near the back rooms and responds effectively to audio lure distractions. FC can be managed through strategic sound deployment, but ignoring this threat during multitasking moments can quickly overwhelm your defenses. Always verify FC's position after using audio distractions to ensure the lure was effective.</p>
+            </div>
+            
+            <div class="version-item">
+                <h3>Trump</h3>
+                <p>This adversary attacks exclusively through the vent systems and signals his approach with distinctive loud banging sounds. Quick vent closures are absolutely crucial to prevent oxygen loss and avoid fatal attacks. Never ignore vent audio cues, as Trump can breach your defenses faster than any other enemy.</p>
+            </div>
+            
+            <div class="version-item">
+                <h3>Stephen Hawking</h3>
+                <p>Uniquely positioned at a fixed camera location, this enemy completely ignores audio lures and must be dealt with using manual system intervention. Failing to address his presence can lead to sudden, unexpected movement elsewhere in the facility. Monitor his camera feed regularly and respond immediately when his behavior changes.</p>
+            </div>
+        </section>
+
+        <section id="gameplay" class="section">
+            <h2>Master the Art of Survival in Five Nights at Epstein's</h2>
+            <p>Whether you are new to surveillance horror games or an experienced player seeking the ultimate challenge, <strong>Five Nights at Epstein's</strong> offers an intense experience that is easy to understand but incredibly difficult to master:</p>
+            <ol>
+                <li>Begin by familiarizing yourself with camera locations and the layout of the surveillance system</li>
+                <li>Develop a systematic camera checking routine to maintain awareness of all enemy positions</li>
+                <li>Learn each enemy's distinct audio cues to predict attacks before they happen</li>
+                <li>Practice efficient multitasking between camera monitoring, vent management, and system resets</li>
+                <li>Master the timing of audio lure deployment to maximize effectiveness while minimizing system overload risk</li>
+                <li>Stay calm during system malfunctions and execute reset procedures quickly and efficiently</li>
+                <li>Progress through all five nights, with each night introducing faster enemies and more frequent malfunctions</li>
+            </ol>
+            <p>Ready to test your survival skills in <strong>Five Nights at Epstein's</strong>? <a href="/" title="Play Five Nights at Epstein's">Play Five Nights at Epstein's online now</a> and discover if you have what it takes to survive until dawn!</p>
+        </section>
+
+        <section id="similar-games" class="section">
+            <h2>Explore Similar Horror Games</h2>
+            <div class="version-item">
+                <h3>FNAF Series</h3>
+                <p>The legendary Five Nights at Freddy's franchise pioneered the surveillance horror genre that inspired <strong>Five Nights at Epstein's</strong>. Experience the original animatronic terror that started it all.</p>
+            </div>
+            <div class="version-item">
+                <h3>Horror Nun</h3>
+                <p>A terrifying stealth horror experience featuring a relentless pursuer. Similar to <strong>Five Nights at Epstein's</strong>, this game requires careful listening and quick reactions to survive.</p>
+            </div>
+            <div class="version-item">
+                <h3>Granny</h3>
+                <p>Another intense survival horror game where you must escape a dangerous location while avoiding detection. Fans of <strong>Five Nights at Epstein's</strong> will appreciate the tension and strategy elements.</p>
+            </div>
+        </section>
+
+        <section id="features-detailed" class="section">
+            <h2>Why Play Five Nights at Epstein's? The Ultimate Horror Experience</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>Intense Atmosphere</h3>
+                    <p><strong>Five Nights at Epstein's</strong> creates an oppressive, tension-filled environment through compressed time mechanics, limited resources, and the constant threat of enemy attacks.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Strategic Depth</h3>
+                    <p>Unlike simple jump-scare games, <strong>Five Nights at Epstein's</strong> requires genuine strategic thinking, resource management, and prioritization skills to survive.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Unique Enemy Roster</h3>
+                    <p>Four distinct adversaries with unique behaviors ensure that <strong>Five Nights at Epstein's</strong> remains challenging and unpredictable throughout all five nights.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" class="section">
+            <h2>Five Nights at Epstein's Survival Strategy Guide</h2>
+            <p>Master these essential <strong>Five Nights at Epstein's</strong> techniques to maximize your survival time:</p>
+            <ul>
+                <li>Develop a consistent camera checking pattern and stick to it religiously</li>
+                <li>Prioritize threats based on proximity and danger level, dealing with the most immediate first</li>
+                <li>Use audio lures sparingly to avoid triggering system malfunctions at critical moments</li>
+                <li>Keep vents closed only as long as necessary to maintain safe oxygen levels</li>
+                <li>Learn to recognize each enemy's distinct audio cues for early warning of attacks</li>
+                <li>Practice system reset procedures until they become muscle memory</li>
+                <li>Stay calm during malfunctions and execute recovery steps methodically</li>
+            </ul>
+        </section>
+
+        <section id="faq" class="section">
+            <h2>Frequently Asked Questions About Five Nights at Epstein's</h2>
+            <div class="faq-item">
+                <h3>Can I play Five Nights at Epstein's for free?</h3>
+                <p>Yes! <strong>Five Nights at Epstein's</strong> is completely free to play directly in your web browser. Simply visit our website, click 'Play Now,' and begin your survival horror experience immediately without any downloads or installations required.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What makes Five Nights at Epstein's different from other horror games?</h3>
+                <p><strong>Five Nights at Epstein's</strong> stands out through its unique compressed time mechanic, sophisticated surveillance system, and diverse enemy roster. The thirty-second hour system creates relentless pressure that transforms waiting time into active engagement, while the four distinct enemies each require different defensive strategies.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is Five Nights at Epstein's suitable for all ages?</h3>
+                <p><strong>Five Nights at Epstein's</strong> is designed as a horror survival game and contains tense atmosphere, jump scares, and dark themes. While not excessively violent, the intense psychological pressure and horror elements make it most suitable for teenagers and adults.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I play Five Nights at Epstein's on mobile devices?</h3>
+                <p><strong>Five Nights at Epstein's</strong> is primarily optimized for desktop browsers at the moment, but mobile compatibility is being developed. For the best experience with precise camera controls and quick reactions, we currently recommend playing on a computer.</p>
+            </div>
+        </section>
+        <section id="cusdis" class="section">
+            <h2>Join the Five Nights at Epstein's Community</h2>
+            <div id="cusdis_thread"
+            data-host="https://cusdis.com"
+            data-app-id="8f6975aa-8753-4013-b97f-59cc7c4ebb2f"
+            data-page-id="{{ PAGE_ID }}"
+            data-page-url="{{ PAGE_URL }}"
+            data-page-title="{{ PAGE_TITLE }}"
+            ></div>
+            <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+        </section>
+    </div>
+</div>
+
+    <footer class="site-footer">
+        <div class="logo">
+            <svg width="350" height="40" viewBox="0 0 350 40">
+                <defs>
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+                        .rainbow-text { 
+                            font-family: 'Press Start 2P', cursive;
+                            font-size: 14px;
+                            letter-spacing: -3px;
+                        }
+                    </style>
+                </defs>
+                <text x="0" y="30" class="rainbow-text">
+                    <tspan fill="#FF0000">F</tspan>
+                    <tspan fill="#FF7F00">I</tspan>
+                    <tspan fill="#FFFF00">V</tspan>
+                    <tspan fill="#00FF00">E</tspan>
+                    <tspan fill="#0000FF">N</tspan>
+                    <tspan fill="#8B00FF">I</tspan>
+                    <tspan fill="#FF1493">G</tspan>
+                    <tspan fill="#00FFFF">H</tspan>
+                    <tspan fill="#FF69B4">T</tspan>
+                    <tspan fill="#1E90FF">S</tspan>
+                    <tspan fill="#32CD32">A</tspan>
+                    <tspan fill="#FF0000">T</tspan>
+                    <tspan fill="#FF7F00">E</tspan>
+                    <tspan fill="#FFFF00">P</tspan>
+                    <tspan fill="#00FF00">S</tspan>
+                    <tspan fill="#0000FF">T</tspan>
+                    <tspan fill="#8B00FF">E</tspan>
+                    <tspan fill="#FF1493">I</tspan>
+                    <tspan fill="#00FFFF">N</tspan>
+                    <tspan fill="#FF69B4">S</tspan>
+                </text>
+            </svg>
+        </div>
+        <nav class="footer-nav">
+            <a href="/" title="Five Nights at Epstein's">Home</a>
+            <a href="/about">About</a>
+            <a href="/terms">Terms of Use</a>
+            <a href="/privacy">Privacy Policy</a>
+        </nav>
+        <p class="footer-disclaimer">© 2025 five-nights-at-epsteins.org. All rights reserved. </p>
+    </footer>
+</body>
+</html>
